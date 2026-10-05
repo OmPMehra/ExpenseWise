@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">ExpenseWise</string>
+    <string name="app_tagline">Track. Monitor. Save.</string>
+    <string name="app_version">Version 1.0.0</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_transactions">Transactions</string>
+    <string name="nav_budgets">Budgets</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Auth / Login / Register -->
+    <string name="login_title">Welcome Back!</string>
+    <string name="login_subtitle">Sign in to manage your finances</string>
+    <string name="email_or_username">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="login_button">Sign In</string>
+    <string name="register_button">Create Account</string>
+    <string name="dont_have_account">Don\'t have an account? Sign Up</string>
+    <string name="already_have_account">Already have an account? Sign In</string>
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Start your personal finance journey</string>
+
+    <!-- Validation Errors -->
+    <string name="err_empty_name">Please enter your full name</string>
+    <string name="err_empty_email">Please enter your email</string>
+    <string name="err_invalid_email">Please enter a valid email address</string>
+    <string name="err_empty_password">Please enter a password</string>
+    <string name="err_short_password">Password must be at least 6 characters</string>
+    <string name="err_passwords_dont_match">Passwords do not match</string>
+    <string name="err_email_exists">Email is already registered. Please login.</string>
+    <string name="err_invalid_credentials">Invalid email or password</string>
+
+    <!-- PIN Lock -->
+    <string name="pin_title_verify">Enter App PIN</string>
+    <string name="pin_subtitle_verify">Enter your 4-digit PIN to access ExpenseWise</string>
+    <string name="pin_title_create">Set New PIN</string>
+    <string name="pin_subtitle_create">Create a 4-digit PIN for security</string>
+    <string name="pin_title_confirm">Confirm PIN</string>
+    <string name="pin_subtitle_confirm">Re-enter your 4-digit PIN to confirm</string>
+    <string name="err_wrong_pin">Incorrect PIN. Please try again.</string>
+    <string name="err_pin_mismatch">PINs do not match. Please try again.</string>
+    <string name="pin_set_success">PIN set successfully!</string>
+    <string name="pin_verified_success">PIN Verified</string>
+
+    <!-- Settings & Profile -->
+    <string name="title_settings">Settings &amp; Profile</string>
+    <string name="section_profile">User Profile</string>
+    <string name="section_security">Security &amp; App Lock</string>
+    <string name="section_preferences">Preferences</string>
+    <string name="section_data">Data Management</string>
+    <string name="section_about">About App</string>
+
+    <string name="enable_pin_lock">Enable App PIN Lock</string>
+    <string name="enable_pin_lock_sub">Require 4-digit PIN when opening app</string>
+    <string name="change_pin">Change Security PIN</string>
+    <string name="select_currency">Currency Symbol</string>
+    <string name="enable_notifications">Push Notifications</string>
+    <string name="enable_notifications_sub">Receive reminders and budget alerts</string>
+    <string name="load_demo_data">Load Sample Demo Data</string>
+    <string name="load_demo_data_sub">Populate account with sample transactions &amp; budgets</string>
+    <string name="about_description">ExpenseWise is a full-featured personal finance manager app built for tracking daily expenses, setting budgets, and achieving savings goals.</string>
+    <string name="about_developer">Developed as a College Android Project</string>
+    <string name="account_created">Member since: %1$s</string>
+    <string name="logout">Log Out</string>
+    <string name="logout_confirm_title">Confirm Logout</string>
+    <string name="logout_confirm_msg">Are you sure you want to log out of your account?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="demo_data_success">Demo data loaded successfully!</string>
+    <string name="demo_data_failed">Failed to generate demo data</string>
+
+    <!-- Dashboard -->
+    <string name="greeting_morning">Good Morning,</string>
+    <string name="greeting_afternoon">Good Afternoon,</string>
+    <string name="greeting_evening">Good Evening,</string>
+    <string name="current_balance">Current Balance</string>
+    <string name="total_income">Total Income</string>
+    <string name="total_expenses">Total Expenses</string>
+    <string name="this_month_expenses">This Month\'s Expenses</string>
+    <string name="monthly_budget_status">Monthly Budget Overview</string>
+    <string name="budget_spent">Spent: %1$s</string>
+    <string name="budget_remaining">Remaining: %1$s</string>
+    <string name="budget_total">Total Budget: %1$s</string>
+    <string name="budget_status_normal">Under Control</string>
+    <string name="budget_status_warning">Approaching Budget Limit</string>
+    <string name="budget_status_critical">Budget Limit Exceeded!</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="view_all">View All</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="add_expense">+ Expense</string>
+    <string name="add_income">+ Income</string>
+    <string name="no_transactions_title">No Transactions Yet</string>
+    <string name="no_transactions_desc">Start tracking your income and expenses by adding a new transaction or loading demo data.</string>
+    <string name="no_transactions_filter_desc">No transactions found matching your search or filter criteria.</string>
+    <string name="btn_add_short">+ Add</string>
+    <string name="btn_add_new_transaction">+ Add New Transaction</string>
+    <string name="sort_prefix">Sort: %1$s</string>
+
+    <!-- Transactions -->
+    <string name="search_hint">Search description, category, payment method&#8230;</string>
+    <string name="filter_all">All</string>
+    <string name="filter_income">Income</string>
+    <string name="filter_expense">Expense</string>
+
+    <!-- Add / Edit Transaction -->
+    <string name="title_add_transaction">Add Transaction</string>
+    <string name="title_edit_transaction">Edit Transaction</string>
+    <string name="label_transaction_type">Transaction Type</string>
+    <string name="type_expense">Expense</string>
+    <string name="type_income">Income</string>
+    <string name="label_amount">Amount</string>
+    <string name="label_category">Category</string>
+    <string name="label_description">Description</string>
+    <string name="label_date">Date</string>
+    <string name="label_time">Time</string>
+    <string name="label_payment_method">Payment Method</string>
+    <string name="label_notes">Notes / Remarks</string>
+    <string name="btn_save_transaction">Save Transaction</string>
+    <string name="btn_add_custom_category">+ Add Custom Category</string>
+    <string name="err_invalid_amount">Please enter a valid amount greater than 0</string>
+    <string name="err_empty_category">Please select a category</string>
+
+    <!-- Details -->
+    <string name="title_transaction_details">Transaction Details</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="delete_confirm_title">Delete Transaction</string>
+    <string name="delete_confirm_msg">Are you sure you want to delete this transaction?</string>
+
+    <!-- Budgets -->
+    <string name="title_budgets">Budget Management</string>
+    <string name="overall_budget">Overall Budget</string>
+    <string name="category_budgets">Category Budgets</string>
+    <string name="btn_set_budget">Set / Edit Budget</string>
+    <string name="add_budget">Set Budget</string>
+    <string name="title_add_budget">Set Monthly Budget</string>
+    <string name="label_select_month">Select Month &amp; Year</string>
+    <string name="label_budget_amount">Budget Amount</string>
+    <string name="budget_saved_success">Budget updated successfully</string>
+    <string name="no_budgets_title">No Category Budgets Configured</string>
+    <string name="no_budgets_desc">Set up category budgets to stay on top of your spending limits.</string>
+
+    <!-- Reports & Insights -->
+    <string name="nav_reports">Reports</string>
+    <string name="reports_title">Reports &amp; Analytics</string>
+    <string name="charts_tab">Charts &amp; Visuals</string>
+    <string name="insights_tab">Spending Insights</string>
+    <string name="time_weekly">Weekly</string>
+    <string name="time_monthly">Monthly</string>
+    <string name="time_yearly">Yearly</string>
+    <string name="chart_pie_title">Expense Breakdown by Category</string>
+    <string name="chart_bar_title">Monthly Income vs Expenses</string>
+    <string name="chart_line_title">Spending Trend Over Time</string>
+    <string name="no_transactions_reports">Add more transactions to generate reports.</string>
+    <string name="financial_health_title">Financial Health Overview</string>
+    <string name="savings_amount_label">Savings Amount</string>
+    <string name="savings_rate_label">Savings Rate</string>
+    <string name="disclaimer_text">This is an app-generated spending overview and not professional financial advice.</string>
+    <string name="highest_category_title">Highest Spending Category</string>
+    <string name="lowest_category_title">Lowest Spending Category</string>
+    <string name="avg_daily_title">Average Daily Spending</string>
+    <string name="mom_title">Month-over-Month Comparison</string>
+    <string name="budget_util_title">Budget Utilization</string>
+
+    <!-- Savings Goals -->
+    <string name="title_savings_goals">Savings Goals</string>
+    <string name="add_savings_goal">Add Savings Goal</string>
+    <string name="edit_savings_goal">Edit Savings Goal</string>
+    <string name="label_goal_name">Goal Name</string>
+    <string name="label_target_amount">Target Amount</string>
+    <string name="label_current_amount">Current Amount Saved</string>
+    <string name="label_target_date">Target Completion Date</string>
+    <string name="deposit_money">Deposit Money</string>
+    <string name="deposit_dialog_title">Add Money to Goal</string>
+    <string name="no_savings_goals_title">No Savings Goals Set</string>
+    <string name="no_savings_goals_desc">Start saving towards your financial targets like a new laptop or vacation.</string>
+    <string name="goal_saved_success">Savings goal saved successfully</string>
+    <string name="goal_deleted">Savings goal deleted</string>
+
+    <!-- Recurring Expenses -->
+    <string name="title_recurring_expenses">Recurring Expenses</string>
+    <string name="add_recurring_expense">Add Recurring Expense</string>
+    <string name="edit_recurring_expense">Edit Recurring Expense</string>
+    <string name="label_frequency">Frequency</string>
+    <string name="label_next_due_date">Next Due Date</string>
+    <string name="post_recurring_transaction">Post Transaction</string>
+    <string name="posted_success">Recurring expense posted as transaction!</string>
+    <string name="no_recurring_title">No Recurring Expenses</string>
+    <string name="no_recurring_desc">Keep track of subscriptions, rent, and recurring utility bills.</string>
+    <string name="recurring_saved_success">Recurring expense saved successfully</string>
+    <string name="recurring_deleted">Recurring expense deleted</string>
+
+    <!-- Quick Entry Points -->
+    <string name="savings_goals">Savings Goals</string>
+    <string name="recurring_expenses">Recurring Expenses</string>
+    <string name="manage_savings">Track progress on your financial goals</string>
+    <string name="manage_recurring">Manage subscriptions &amp; regular bills</string>
+</resources>

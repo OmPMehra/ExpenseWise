@@ -1,0 +1,51 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.MadProject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background</item>
+
+        <!-- Global Component Styles -->
+        <item name="textInputStyle">@style/Widget.ExpenseWise.TextInputLayout.OutlinedBox</item>
+        <item name="materialButtonStyle">@style/Widget.ExpenseWise.Button</item>
+        <item name="materialAlertDialogTheme">@style/Theme.ExpenseWise.Dialog</item>
+    </style>
+
+    <!-- Custom Outlined TextInputLayout Style -->
+    <style name="Widget.ExpenseWise.TextInputLayout.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/input_stroke_color</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxBackgroundColor">@color/input_bg_color</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="android:textColorHint">@color/input_hint_color</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+
+    <!-- Material Button Style -->
+    <style name="Widget.ExpenseWise.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- Material Dialog Theme -->
+    <style name="Theme.ExpenseWise.Dialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.ExpenseWise.Dialog</item>
+        <item name="colorPrimary">@color/primary</item>
+    </style>
+
+    <style name="ShapeAppearance.ExpenseWise.Dialog" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>

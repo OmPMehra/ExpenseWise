@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Theme Colors -->
+    <color name="primary">#4F46E5</color>
+    <color name="primary_dark">#3730A3</color>
+    <color name="primary_light">#EEF2FF</color>
+
+    <!-- Secondary & Accent Colors -->
+    <color name="secondary">#10B981</color>
+    <color name="secondary_dark">#059669</color>
+    <color name="secondary_light">#D1FAE5</color>
+    <color name="accent">#8B5CF6</color>
+
+    <!-- Neutral & Background Colors -->
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#E2E8F0</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_hint">#94A3B8</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Input Field Specific Colors -->
+    <color name="input_stroke_color">#4F46E5</color>
+    <color name="input_stroke_focused">#3730A3</color>
+    <color name="input_bg_color">#FAFAFA</color>
+    <color name="text_dark">#0F172A</color>
+    <color name="input_hint_color">#64748B</color>
+
+    <!-- Status / Feedback Colors -->
+    <color name="error">#EF4444</color>
+    <color name="error_red">#DC2626</color>
+    <color name="error_light">#FEE2E2</color>
+    <color name="success">#10B981</color>
+    <color name="success_green">#059669</color>
+    <color name="warning">#F59E0B</color>
+
+    <!-- Legacy / System palette support -->
+    <color name="purple_200">#818CF8</color>
+    <color name="purple_500">#4F46E5</color>
+    <color name="purple_700">#3730A3</color>
+    <color name="teal_200">#34D399</color>
+    <color name="teal_700">#059669</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>
